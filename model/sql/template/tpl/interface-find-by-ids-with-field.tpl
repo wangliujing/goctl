@@ -1,0 +1,1 @@
+FindByIdsWithField(fields[]string, ids ...{{.dataType}}) ([]model.{{.upperStartCamelObject}}PO, error)

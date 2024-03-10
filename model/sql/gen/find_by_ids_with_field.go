@@ -1,0 +1,49 @@
+package gen
+
+import (
+	"github.com/wangliujing/goctl/model/sql/template"
+	"github.com/wangliujing/goctl/util"
+	"github.com/wangliujing/goctl/util/pathx"
+	"github.com/wangliujing/goctl/util/stringx"
+)
+
+func genFindByIdsWithField(table Table) (string, string, error) {
+	camel := table.Name.ToCamel()
+	text, err := pathx.LoadTemplate(category, findByIdsWithFieldTemplateFile, template.FindByIdsWithField)
+	if err != nil {
+		return "", "", err
+	}
+
+	output, err := util.With("findByIdsWithField").
+		Parse(text).
+		Execute(map[string]any{
+			"upperStartCamelObject":     camel,
+			"lowerStartCamelObject":     stringx.From(camel).Untitle(),
+			"lowerStartCamelPrimaryKey": util.EscapeGolangKeyword(stringx.From(table.PrimaryKey.Name.ToCamel()).Untitle()),
+			"upperStartCamelPrimaryKey": table.PrimaryKey.Name.ToCamel(),
+			"dataType":                  table.PrimaryKey.DataType,
+			"data":                      table,
+		})
+	if err != nil {
+		return "", "", err
+	}
+
+	text, err = pathx.LoadTemplate(category, findByIdsWithFieldMethodTemplateFile, template.FindByIdsWithFieldMethod)
+	if err != nil {
+		return "", "", err
+	}
+
+	findByIdsWithFieldMethod, err := util.With("findByIdsWithFieldMethod").
+		Parse(text).
+		Execute(map[string]any{
+			"upperStartCamelObject":     camel,
+			"lowerStartCamelPrimaryKey": util.EscapeGolangKeyword(stringx.From(table.PrimaryKey.Name.ToCamel()).Untitle()),
+			"dataType":                  table.PrimaryKey.DataType,
+			"data":                      table,
+		})
+	if err != nil {
+		return "", "", err
+	}
+
+	return output.String(), findByIdsWithFieldMethod.String(), nil
+}

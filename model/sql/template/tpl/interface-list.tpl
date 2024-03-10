@@ -1,0 +1,1 @@
+List(size int64) ([]model.{{.upperStartCamelObject}}PO, error)

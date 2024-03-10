@@ -1,0 +1,1 @@
+ListUnscoped(size int64) ([]model.{{.upperStartCamelObject}}PO, error)

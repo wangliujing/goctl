@@ -1,0 +1,1 @@
+FindById({{.lowerStartCamelPrimaryKey}} {{.dataType}}) (*model.{{.upperStartCamelObject}}PO, error)

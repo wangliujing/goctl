@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8465bbbb-e639-4457-83ce-d2e602e4901f" name="Changes" comment="ServiceContext 新增回调">
+      <change beforePath="$PROJECT_DIR$/api/apigen/gen.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/apigen/gen.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/apigen/template.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/apigen/template.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/cmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/cmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dartgen/gen.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/dartgen/gen.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dartgen/genapi.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/dartgen/genapi.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dartgen/gendata.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/dartgen/gendata.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dartgen/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/dartgen/util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dartgen/util_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/dartgen/util_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/docgen/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/docgen/doc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/docgen/gen.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/docgen/gen.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/format/format.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/format/format.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gogen/gen.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/gogen/gen.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gogen/gen_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/gogen/gen_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gogen/genconfig.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/gogen/genconfig.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gogen/genetc.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/gogen/genetc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gogen/genhandlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/gogen/genhandlers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gogen/genlogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/gogen/genlogic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gogen/genmain.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/gogen/genmain.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gogen/genmiddleware.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/gogen/genmiddleware.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gogen/genroutes.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/gogen/genroutes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gogen/gensvc.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/gogen/gensvc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gogen/gentypes.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/gogen/gentypes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gogen/handler.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/api/gogen/handler.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gogen/main.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/api/gogen/main.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gogen/template.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/gogen/template.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gogen/template_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/gogen/template_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gogen/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/gogen/util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/javagen/gen.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/javagen/gen.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/javagen/gencomponents.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/javagen/gencomponents.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/javagen/genpacket.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/javagen/genpacket.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/javagen/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/javagen/util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/ktgen/cmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/ktgen/cmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/ktgen/funcs.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/ktgen/funcs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/ktgen/gen.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/ktgen/gen.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/new/newservice.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/new/newservice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/new/template.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/new/template.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/parser/g4/ast/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/parser/g4/ast/api.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/parser/g4/ast/apiparser.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/parser/g4/ast/apiparser.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/parser/g4/ast/apiparser_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/parser/g4/ast/apiparser_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/parser/g4/ast/ast.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/parser/g4/ast/ast.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/parser/g4/ast/import.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/parser/g4/ast/import.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/parser/g4/ast/info.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/parser/g4/ast/info.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/parser/g4/ast/kv.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/parser/g4/ast/kv.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/parser/g4/ast/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/parser/g4/ast/service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/parser/g4/ast/syntax.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/parser/g4/ast/syntax.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/parser/g4/ast/type.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/parser/g4/ast/type.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/parser/g4/test/apiparser_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/parser/g4/test/apiparser_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/parser/g4/test/ast_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/parser/g4/test/ast_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/parser/g4/test/import_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/parser/g4/test/import_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/parser/g4/test/info_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/parser/g4/test/info_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/parser/g4/test/service_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/parser/g4/test/service_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/parser/g4/test/syntax_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/parser/g4/test/syntax_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/parser/g4/test/type_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/parser/g4/test/type_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/parser/parser.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/parser/parser.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/parser/parser_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/parser/parser_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/spec/example_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/spec/example_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/spec/fn.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/spec/fn.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/tsgen/gen.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/tsgen/gen.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/tsgen/gencomponents.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/tsgen/gencomponents.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/tsgen/genpacket.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/tsgen/genpacket.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/tsgen/genrequest.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/tsgen/genrequest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/tsgen/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/tsgen/util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/tsgen/util_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/tsgen/util_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/util/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/util/util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/validate/validate.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/validate/validate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug/bug.go" beforeDir="false" afterPath="$PROJECT_DIR$/bug/bug.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug/cmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/bug/cmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug/env.go" beforeDir="false" afterPath="$PROJECT_DIR$/bug/env.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/root.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/root.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compare/cmd/cmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/compare/cmd/cmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compare/compare.go" beforeDir="false" afterPath="$PROJECT_DIR$/compare/compare.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compare/testdata/testdata.go" beforeDir="false" afterPath="$PROJECT_DIR$/compare/testdata/testdata.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/cmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/docker/cmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/docker.go" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/template.go" beforeDir="false" afterPath="$PROJECT_DIR$/docker/template.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/check.go" beforeDir="false" afterPath="$PROJECT_DIR$/env/check.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/cmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/env/cmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/env.go" beforeDir="false" afterPath="$PROJECT_DIR$/env/env.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/rpc/hello/client/greet/greet.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/rpc/hello/client/greet/greet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/rpc/hello/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/rpc/hello/hello.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/rpc/hello/internal/logic/greet/sayhellologic.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/rpc/hello/internal/logic/greet/sayhellologic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/rpc/hello/internal/server/greet/greetserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/rpc/hello/internal/server/greet/greetserver.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/rpc/hello/internal/svc/servicecontext.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/rpc/hello/internal/svc/servicecontext.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/rpc/hi/client/event/event.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/rpc/hi/client/event/event.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/rpc/hi/client/greet/greet.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/rpc/hi/client/greet/greet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/rpc/hi/hi.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/rpc/hi/hi.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/rpc/hi/internal/logic/event/askquestionlogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/rpc/hi/internal/logic/event/askquestionlogic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/rpc/hi/internal/logic/greet/sayhellologic.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/rpc/hi/internal/logic/greet/sayhellologic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/rpc/hi/internal/logic/greet/sayhilogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/rpc/hi/internal/logic/greet/sayhilogic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/rpc/hi/internal/server/event/eventserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/rpc/hi/internal/server/event/eventserver.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/rpc/hi/internal/server/greet/greetserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/rpc/hi/internal/server/greet/greetserver.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/rpc/hi/internal/svc/servicecontext.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/rpc/hi/internal/svc/servicecontext.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/cmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/cmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/template.go" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/template.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goctl.go" beforeDir="false" afterPath="$PROJECT_DIR$/goctl.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cobrax/cobrax.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cobrax/cobrax.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/errorx/errorx.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/errorx/errorx.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/flags/flags.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/flags/flags.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/flags/flags_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/flags/flags_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kube/cmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/kube/cmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kube/kube.go" beforeDir="false" afterPath="$PROJECT_DIR$/kube/kube.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrate/cancel.go" beforeDir="false" afterPath="$PROJECT_DIR$/migrate/cancel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrate/cmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/migrate/cmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrate/migrate.go" beforeDir="false" afterPath="$PROJECT_DIR$/migrate/migrate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrate/mod.go" beforeDir="false" afterPath="$PROJECT_DIR$/migrate/mod.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrate/proxy.go" beforeDir="false" afterPath="$PROJECT_DIR$/migrate/proxy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrate/version.go" beforeDir="false" afterPath="$PROJECT_DIR$/migrate/version.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/cmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/cmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mongo/generate/generate.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/mongo/generate/generate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mongo/generate/generate_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/mongo/generate/generate_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mongo/generate/template.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/mongo/generate/template.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mongo/generate/template_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/mongo/generate/template_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/mongo/mongo.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/mongo/mongo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/command/command.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/command/command.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/command/command_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/command/command_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/command/migrationnotes/migrationnotes.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/command/migrationnotes/migrationnotes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/batch_save.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/batch_save.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/count.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/count.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/count_unscoped.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/count_unscoped.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/delete_by_id.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/delete_by_id.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/delete_by_ids.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/delete_by_ids.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/field.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/field.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/find_by_id.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/find_by_id.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/find_by_id_unscoped.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/find_by_id_unscoped.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/find_by_id_unscoped_with_field.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/find_by_id_unscoped_with_field.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/find_by_id_with_field.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/find_by_id_with_field.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/find_by_ids.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/find_by_ids.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/find_by_ids_unscoped.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/find_by_ids_unscoped.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/find_by_ids_unscoped_with_field.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/find_by_ids_unscoped_with_field.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/find_by_ids_with_field.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/find_by_ids_with_field.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/gen.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/gen.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/imports.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/imports.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/keys.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/keys.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/keys_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/keys_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/list.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/list_unscoped.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/list_unscoped.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/list_unscoped_with_field.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/list_unscoped_with_field.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/list_with_field.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/list_with_field.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/new.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/new.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/page.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/page.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/page_unscoped.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/page_unscoped.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/page_unscoped_with_field.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/page_unscoped_with_field.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/page_with_field.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/page_with_field.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/save.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/save.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/tag.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/tag.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/template.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/template.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/template_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/template_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/gen/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/gen/types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/model/infoschemamodel.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/model/infoschemamodel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/parser/parser.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/parser/parser.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/parser/parser_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/parser/parser_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/template/tpl/import.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/template/tpl/import.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/template/tpl/mapper-custom.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/template/tpl/mapper-custom.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sql/test/model/model_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/sql/test/model/model_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/collection/sortedmap.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/collection/sortedmap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/env/env.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/env/env.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/goctl/goctl.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/goctl/goctl.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/golang/bin.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/golang/bin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/golang/path.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/golang/path.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/parser/api/ast/ast.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/parser/api/ast/ast.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/parser/api/ast/comment.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/parser/api/ast/comment.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/parser/api/ast/importstatement.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/parser/api/ast/importstatement.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/parser/api/ast/infostatement.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/parser/api/ast/infostatement.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/parser/api/ast/kvexpression.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/parser/api/ast/kvexpression.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/parser/api/ast/print.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/parser/api/ast/print.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/parser/api/ast/servicestatement.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/parser/api/ast/servicestatement.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/parser/api/ast/syntaxstatement.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/parser/api/ast/syntaxstatement.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/parser/api/ast/typestatement.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/parser/api/ast/typestatement.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/parser/api/ast/writer.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/parser/api/ast/writer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/parser/api/format/format.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/parser/api/format/format.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/parser/api/format/format_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/parser/api/format/format_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/parser/api/parser/analyzer.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/parser/api/parser/analyzer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/parser/api/parser/analyzer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/parser/api/parser/analyzer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/parser/api/parser/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/parser/api/parser/api.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/parser/api/parser/filter.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/parser/api/parser/filter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/parser/api/parser/parser.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/parser/api/parser/parser.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/parser/api/parser/parser_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/parser/api/parser/parser_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/parser/api/scanner/scanner.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/parser/api/scanner/scanner.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/parser/api/scanner/scanner_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/parser/api/scanner/scanner_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/parser/api/token/token.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/parser/api/token/token.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/protoc/protoc.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/protoc/protoc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/protocgengo/protocgengo.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/protocgengo/protocgengo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/protocgengogrpc/protocgengogrpc.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/protocgengogrpc/protocgengogrpc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/demo/goctlplugin.go" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/demo/goctlplugin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/plugin.go" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/plugin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/cmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/cmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/micro.go" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/micro.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/mono.go" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/mono.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/quickstart.go" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/quickstart.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/run.go" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/run.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/cli/cli.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/cli/cli.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/cli/zrpc.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/cli/zrpc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/cmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/cmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/execx/execx.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/execx/execx.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/generator/gen.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/generator/gen.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/generator/gen_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/generator/gen_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/generator/gencall.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/generator/gencall.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/generator/genconfig.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/generator/genconfig.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/generator/generator.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/generator/generator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/generator/genetc.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/generator/genetc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/generator/genlogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/generator/genlogic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/generator/genmain.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/generator/genmain.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/generator/genpb.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/generator/genpb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/generator/genpb_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/generator/genpb_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/generator/genserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/generator/genserver.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/generator/gensvc.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/generator/gensvc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/generator/main.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/generator/main.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/generator/mkdir.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/generator/mkdir.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/generator/prototmpl.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/generator/prototmpl.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/generator/prototmpl_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/generator/prototmpl_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/generator/template.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/generator/template.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/generator/template_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/generator/template_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpl/cmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/cmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpl/templates.go" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/templates.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update/update.go" beforeDir="false" afterPath="$PROJECT_DIR$/update/update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upgrade/cmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/upgrade/cmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upgrade/upgrade.go" beforeDir="false" afterPath="$PROJECT_DIR$/upgrade/upgrade.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/ctx/context.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/ctx/context.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/ctx/gomod.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/ctx/gomod.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/ctx/gomod_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/ctx/gomod_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/ctx/gopath.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/ctx/gopath.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/ctx/gopath_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/ctx/gopath_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/ctx/modcheck.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/ctx/modcheck.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/ctx/modcheck_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/ctx/modcheck_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/env/env.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/env/env.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/env/env_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/env/env_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/git.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/git.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/name/naming.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/name/naming.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/pathx/file.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/pathx/file.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/pathx/file_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/pathx/file_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/pathx/path.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/pathx/path.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/string.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/string.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/templatex.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/templatex.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/templatex_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/templatex_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/zipx/zipx.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/zipx/zipx.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../go-1.20.5" />
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="xg" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2W0wMTEZVDzF0F289n8adO5jKwJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Program Files/Go/IdeaProject/goctl/model/sql/gen&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Program Files\Go\IdeaProject\goctl\model\sql\gen" />
+      <recent name="D:\Program Files\Go\IdeaProject\goctl\model\sql\template\tpl" />
+      <recent name="D:\Program Files\Go\IdeaProject\goctl" />
+      <recent name="D:\Program Files\Go\IdeaProject\goctl\api\gogen" />
+      <recent name="D:\Program Files\Go\IdeaProject\goctl\model\sql\template\new" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Program Files\Go\IdeaProject\goctl\model\sql\template\new" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build gitlab-a.bjyybao.com/giimall_go/goctl">
+    <configuration name="go build github.com/zeromicro/go-zero/tools/goctl" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="goctl" />
+      <working_directory value="$PROJECT_DIR$" />
+      <parameters value="model mysql datasource --url 'jmy:Qwer1234@tcp(rm-bp1k0fj4ej13saps7.mysql.rds.aliyuncs.com:3306)/aaa' --table aws_msg --dir ./mapper --style go_zero" />
+      <EXTENSION ID="software.aws.toolkits.jetbrains.core.execution.GoAwsConnectionRunConfigurationExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </EXTENSION>
+      <kind value="PACKAGE" />
+      <package value="github.com/zeromicro/go-zero/tools/goctl" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/goctl.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build gitlab-a.bjyybao.com/giimall_go/goctl" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goctl" />
+      <working_directory value="$PROJECT_DIR$" />
+      <parameters value="model mysql datasource --url 'jmy:Qwer1234@tcp(rm-bp1k0fj4ej13saps7.mysql.rds.aliyuncs.com:3306)/optimization' --table crawl_ali_express_hot_product --dir ./internal/infra/mapper --cache --style go_zero" />
+      <EXTENSION ID="software.aws.toolkits.jetbrains.core.execution.GoAwsConnectionRunConfigurationExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </EXTENSION>
+      <kind value="PACKAGE" />
+      <package value="gitlab-a.bjyybao.com/giimall_go/goctl" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/goctl.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build goctl.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goctl" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="gitlab-a.bjyybao.com/giimall_go/goctl" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/goctl.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build gitlab-a.bjyybao.com/giimall_go/goctl" />
+        <item itemvalue="Go Build.go build goctl.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化导入" />
+    <MESSAGE value="修改目录名称用-隔开" />
+    <MESSAGE value="优化defaultMapper   *orm.GormConnection" />
+    <MESSAGE value="拆分model与mapper" />
+    <MESSAGE value="兼容nacos热更相关的调整" />
+    <MESSAGE value="新增count方法" />
+    <MESSAGE value="ServiceContext 新增回调" />
+    <option name="LAST_COMMIT_MESSAGE" value="ServiceContext 新增回调" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/rpc/generator/gencall.go</url>
+          <line>93</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

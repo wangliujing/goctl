@@ -1,0 +1,1 @@
+FindByIdUnscoped({{.lowerStartCamelPrimaryKey}} {{.dataType}}) (*model.{{.upperStartCamelObject}}PO, error)

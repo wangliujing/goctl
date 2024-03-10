@@ -1,0 +1,1 @@
+{{.name}} {{if .isDeleted}} gorm.DeletedAt {{else}} {{.type}} {{end}} {{.tag}} {{if .hasComment}}// {{.comment}}{{end}}

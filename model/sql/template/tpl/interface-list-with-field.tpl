@@ -1,0 +1,1 @@
+ListWithField(fields[]string, size int64) ([]model.{{.upperStartCamelObject}}PO, error)

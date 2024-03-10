@@ -1,0 +1,1 @@
+BatchSave(models []model.{{.upperStartCamelObject}}PO, batchSize int) (error)

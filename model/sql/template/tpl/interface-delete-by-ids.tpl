@@ -1,0 +1,1 @@
+DeleteByIds(ids ...{{.dataType}}) error

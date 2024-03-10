@@ -1,0 +1,1 @@
+FindByIds(ids ...{{.dataType}}) ([]model.{{.upperStartCamelObject}}PO, error)

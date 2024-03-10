@@ -1,0 +1,1 @@
+Save(model *model.{{.upperStartCamelObject}}PO) (*{{.dataType}}, error)
